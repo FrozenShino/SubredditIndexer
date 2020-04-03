@@ -342,3 +342,4 @@ healthchecksdb
 #Custom
 archive.db
 praw.ini
+subreddits.json
