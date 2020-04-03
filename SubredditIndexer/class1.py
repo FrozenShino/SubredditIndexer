@@ -14,7 +14,7 @@ One of:
     - add a check to ensure that the table name exists before executing here
     OR
     - modify table schema so that there is just one (massive) table for everything and abandon this mess
-Also add error handling...
+- add error handling...
 """
 def insert_row(conn, table_name, id, title, subreddit_name):
     try:
