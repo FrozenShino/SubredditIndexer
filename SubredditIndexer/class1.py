@@ -45,6 +45,8 @@ def create_table(conn, nameOfTable):
             print(e)
         finally:
             print(res)
+            """
+            """
             print("table %s created" %(nameOfTable))
             #conn.close
 
