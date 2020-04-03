@@ -30,6 +30,3 @@ class class1(object):
         print(subreddit)
         for submission in reddit.subreddit(subreddit).hot(limit=10):
             print(submission.title)
-
-    """
-    """
