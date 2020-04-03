@@ -49,7 +49,6 @@ def create_table(conn, nameOfTable):
             #conn.close
 
 
-
 """
 create a connection to the SQLite DB used to store
 info about each thread from each subreddit
